@@ -1,0 +1,146 @@
+body {
+	margin: 0px;
+	background: #eaeaea; 
+}
+
+.app {
+	text-align: center;
+}
+
+.logo {
+	padding: 10px;
+	border-radius: 14px; 
+	background: #f95959;
+	width: 3%;
+	margin: 10px;
+}
+
+h2 {
+	color: #0f4471;
+}
+
+.hr {
+	width: 40%;
+	color: #0f4471;
+}
+
+.form {
+	padding: 10px;
+	background: white; 
+	margin-top: 19%;
+	margin-left: 25px;
+	margin-right: 25px;
+	border-radius: 4px;
+	box-shadow: rgba(50, 50, 93, 0.25) 0px 13px 27px -5px, rgba(0, 0, 0, 0.3) 0px 8px 16px -8px;
+}
+
+.input {
+	border: none; 
+	padding: 15px; 
+	width: 97%;
+	margin: 13px;
+	outline: none; 
+	border-left: 8px solid #fc3c3c;
+}
+
+.input:focus {
+	outline: none;
+	border: 2px solid #0f4471;
+	border-radius: 4px;
+}
+
+.btn {
+	margin-top: 3px;
+	padding: 10px; 
+	width: 100%;
+	background: #083358;
+	color: white;
+	font-size: 20px; 
+	border-radius: 5px;
+	border: none; 
+}
+
+/* Notes page design */
+#notes-page {
+	margin: 8px;
+	background: white; 
+	padding: 7px; 
+	border-radius: 7px; 
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+
+#welcome-text {
+	color: #0f4471;
+	margin: 4px;
+	font-family: sans-serif;
+}
+
+#input-note {
+	width: 90%;
+	padding: 20px; 
+	resize: none;
+}
+
+.input-control {
+	margin-top: 4px;
+	display: flex; 
+    justify-content: space-between;
+}
+
+#input-control, button {
+	padding: 7px;
+	border: none; 
+	background: #0f4471;
+	color: white; 
+}
+
+#input-control, select, option {
+	background: #0f4471;
+	color: white;
+	outline: none; 
+	border-radius: 3px; 
+}
+
+#notes-render{
+	background: white; 
+    margin: 9px; 
+    margin-top: -3px;
+	border-radius: 7px;
+	box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+}
+#notes-container {
+	margin: 10px; 
+	padding-top: 4px;
+	padding-bottom: 4px; 
+}
+#notes-section {
+	background: #0f4471;  
+	color: white;
+	padding: 6px;
+	border-left: 4px solid #fc3c3c;
+	margin-bottom: 5px;
+	border-radius: 4px;
+}
+
+
+.display-category {
+	color: #fc3c3c;
+	font-weight: bold; 
+	margin-bottom: 0px;
+	margin-top: 3px; 
+}
+
+#display-text {
+	margin-top: 3px; 
+}
+
+#displayDate {
+	font-style: italic;
+	margin-bottom: 2px; 
+	margin-top: 3px;
+}
+
+.controlBtn {
+	background: red; 
+}
+

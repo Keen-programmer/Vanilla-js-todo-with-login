@@ -1,0 +1,54 @@
+<!DOCTYPE html>
+<html>
+	<head>
+		<title>Register</title>
+		<link rel = "stylesheet" href ="C:\Users\uiser\Desktop\Daniel\todo/style.css" />
+    </head>
+    
+<body>
+	<section id="register-page">
+		<div class = "app">
+			<form class ="form">
+				<h2>Organize your notes on the cloud using iNote</h2>
+				  <p style= "color: #083358" >Already have an account? Login here</p>
+				<hr class ="hr">
+				<label for ="username">
+					<input type ="text" id="username" placeholder="Enter username" class ="input"/>
+				</label><br>
+				
+				<label for ="email">
+					<input type ="email" id="email" placeholder="Enter your email" class ="input" />
+                </label><br>
+                
+                <label for ="password">
+                	<input type="password" id="password" placeholder="Choose a password" class ="input" />
+                </label><br>
+                <p id = error style= "color: #fc3c3c" ></p>
+                <button id="btn" class ="btn">Register</button>
+            </form>
+        </div>
+    </section>
+    
+    <!-- Login page starts -->
+    <section id="loginPage"> </section>
+     <!-- Login page ends -->
+       	
+      <!-- Notes page header starts -->
+    <section id="notes-page" style ="display: none">
+    	<div id ="input-section"></div>
+   </section>
+      <!-- Notes page header ends -->
+      	
+     <!-- notes render -->
+ <section id="notes-render" style= "display:none">
+ 	<div id="notes-container"></div>
+</section>
+ 
+   <script src = "C:\Users\uiser\Desktop\Daniel\todo/script.js" >
+</script> 
+
+</body>
+    
+
+            
+</html>
